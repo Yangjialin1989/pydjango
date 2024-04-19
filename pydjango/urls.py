@@ -23,7 +23,11 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
 
     # 用户访问网站的时候执行函数
-    path('index/',views.index)
+    path('index/',views.index),
+    path('userlist/',views.user_list),
+    path('useradd/',views.user_add),
+    path('template/',views.template),
+    path('news/',views.news)
 
 
 ]
